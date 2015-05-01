@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E9B46F41AF377470012FE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B46F31AF377470012FE79 /* main.m */; };
+		3E9B46FC1AF377650012FE79 /* BonjourPublishServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B46FB1AF377650012FE79 /* BonjourPublishServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3E9B46F01AF377470012FE79 /* BonjourPublishServices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BonjourPublishServices; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9B46F31AF377470012FE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E9B46FA1AF377570012FE79 /* BonjourPublishServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonjourPublishServices.h; sourceTree = "<group>"; };
+		3E9B46FB1AF377650012FE79 /* BonjourPublishServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourPublishServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3E9B46F31AF377470012FE79 /* main.m */,
+				3E9B46FA1AF377570012FE79 /* BonjourPublishServices.h */,
+				3E9B46FB1AF377650012FE79 /* BonjourPublishServices.m */,
 			);
 			path = BonjourPublishServices;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E9B46F41AF377470012FE79 /* main.m in Sources */,
+				3E9B46FC1AF377650012FE79 /* BonjourPublishServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
