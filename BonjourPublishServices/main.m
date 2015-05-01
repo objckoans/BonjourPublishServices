@@ -7,11 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BonjourPublishServices.h"
 
 int main(int argc, const char * argv[]) {
+
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        BonjourPublishServices *pubService = [[BonjourPublishServices alloc] init];
+        [pubService startServiceOfType:@"_HTTP._tcp." andPort:9711];
+
+        // Use an NSRunLoop to simulate our application lifecyle
+        [[NSRunLoop currentRunLoop] run];
+        
     }
+    
+
     return 0;
 }
